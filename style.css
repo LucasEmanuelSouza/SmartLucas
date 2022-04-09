@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image:url('https://cdn.wallpapersafari.com/91/39/xWAcVT.jpg') ;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#logos-img{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   margin: 150px 0 0 0;
+   justify-content: center;
+}
+
+h1{
+    margin: 3px 30px 30px 30px;
+    color: #ffffff;
+}
+
+.logo{
+    height: 120px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.logo:hover {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.img-lucas{
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 25px 0 0 30px;
+}
+
+.quadro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.relogio{
+    height: 100px;
+    width: 360px;
+    margin: 30px;
+    border-radius: 50px;
+    
+   
+}
+
+.display{
+    margin: 7px auto;
+    background: none;
+    width: 345px;
+    height: 85px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#time{
+    color: #ffffff;
+    font-size: 45pt;
+}
+
+#data{
+    color: #ffffff;
+}
